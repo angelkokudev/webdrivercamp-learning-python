@@ -5,3 +5,8 @@ message = """Learning Python is fun"' """
 print(f'{message} - {number} %' )
 
 print("""Learning Python is fun"'  - {} % """.format(number))
+
+
+
+
+

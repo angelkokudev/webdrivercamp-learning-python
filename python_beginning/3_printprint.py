@@ -1,2 +1,2 @@
 active = "Yes!"
-print (active *4)
+print(active * 4)

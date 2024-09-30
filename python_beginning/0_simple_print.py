@@ -1,1 +1,2 @@
-print (""" Learning Python is fun"' """)
+message = "Learning Python is fun\"'"
+print (message)
