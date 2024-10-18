@@ -1,11 +1,14 @@
 #!/usr/bin/python3
+
+
 def mult_values(d):
     new_dict = {}
     for x, y in d.items():
-        new_dict [x] = y * 2
+        new_dict[x] = y * 2
     return new_dict
 
-if __name__=="__main__":
+
+if __name__ == "__main__":
     dict_print = __import__('6_dict_print').dict_print
 
     dict_ = {'Apple': 13, 'Pear': 1, 'Plum': 20, 'Grape': 10}
