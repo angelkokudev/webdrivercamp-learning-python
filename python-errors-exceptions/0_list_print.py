@@ -4,8 +4,8 @@
 def list_print(lst=[], i=0):
     count = 0
     try:
-        for ind in range(i):
-            print(lst[ind], end="")
+        for int in range(i):
+            print(lst[int], end="")
             count += 1
         print()
         return count
