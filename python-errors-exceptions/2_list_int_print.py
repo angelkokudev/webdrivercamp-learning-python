@@ -4,7 +4,7 @@
 def list_int_print(lst=[], i=0):
     count = 0
     try:
-        for ind in range(i):
+        for int in range(i):
             if isinstance(lst[int], int):
                 integer = lst[int]
                 print(f"{integer:d}", end="")
