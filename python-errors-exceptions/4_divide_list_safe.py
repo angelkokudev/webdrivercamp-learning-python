@@ -13,7 +13,7 @@ def divide_list_safe(list_1, list_2, list_len):
                 item_2 = list_2[item]
                 if not isinstance(item_1, (int, float)):
                     print("wrong type")
-                    result.appen(0)
+                    result.append(0)
                 elif not isinstance(item_2, (int, float)):
                     print("wrong type")
                     result.append(0)
